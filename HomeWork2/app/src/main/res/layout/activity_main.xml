@@ -27,29 +27,33 @@
     <TextView
         android:id="@+id/onCreateTv"
         android:layout_width="wrap_content"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:text="onCreate() Calls : "
         android:layout_height="wrap_content"
-        android:padding="@dimen/activity_horizontal_margin"
-        android:text="onCreate() Calls : " />
+        android:paddingTop="@dimen/activity_vertical_margin"/>
 
     <TextView
         android:id="@+id/onStartTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/activity_horizontal_margin"
-        android:text="onStart() Calls : " />
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:text="onStart() Calls : "
+        android:paddingTop="@dimen/activity_vertical_margin"/>
 
     <TextView
         android:id="@+id/onResumeTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
         android:text="onResume() Calls : " />
 
     <TextView
         android:id="@+id/onPauseTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
         android:text="onPause() Calls : "  />
 
 
@@ -57,14 +61,16 @@
         android:id="@+id/onStopTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
         android:text="onStop() Calls : "  />
 
     <TextView
         android:id="@+id/onRestartTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
         android:text="onRestart() Calls : "  />
 
 
@@ -73,7 +79,8 @@
         android:id="@+id/onDestroyTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
         android:text="onDestroy() Calls : " />
 
     <Button
