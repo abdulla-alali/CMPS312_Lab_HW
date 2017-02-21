@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_view"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:queryHint="@string/serach_hint"
+        />
+
+    <TextView
+        android:id="@+id/select_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_centerHorizontal="true"
+        android:text="@string/select_a_book_you_wish_to_view"
+        android:textStyle="bold"
+        android:textSize="@dimen/seventeen_sp"
+        android:layout_marginTop="@dimen/forty_dp"
+        android:layout_marginBottom="@dimen/twenty_dp"
+        android:layout_below="@id/search_view"/>
+
+    <Button android:layout_height="@dimen/thirty_dp"
+        android:layout_width="@dimen/sixty_dp"
+        android:layout_toLeftOf="@id/select_tv"
+        android:layout_marginTop="@dimen/thrity_five_dp"
+        android:text="@string/favs"
+        android:background="@color/yellow"
+        android:visibility="invisible"
+        android:id="@+id/favBtn"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/books_list_view"
+        android:layout_below="@id/select_tv">
+    </ListView>
+
+
+
+
+</RelativeLayout>

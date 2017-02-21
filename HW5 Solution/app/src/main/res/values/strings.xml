@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">eLibrary</string>
+    <string name="THE_CHOSEN_BOOK">THE_CHOSEN_BOOK</string>
+    <string name="author">Author</string>
+    <string name="overview">Overview:</string>
+    <string name="price">Price:</string>
+    <string name="isbn">ISBN:</string>
+    <string name="publication_date">Publication\nDate:</string>
+    <string name="pages">Pages:</string>
+    <string name="BOOK">BOOK</string>
+    <string name="frame_layout_text">Choose a book to view its details!</string>
+    <string name="BOOK_URL">BOOK_URL</string>
+    <string name="select_a_book_you_wish_to_view">Select a book you wish to view</string>
+    <string name="serach_hint">search for a book</string>
+    <string name="book_not_found">Book not found</string>
+    <string name="dialog_msg">Unfortunately the book is not found</string>
+    <string name="buy_it">Buy it?</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="favorites">Favorites</string>
+    <string name="favs">Favs</string>
+
+    <string-array name="book_titles">
+        <item>Thing Explainer: Complicated Stuff in Simple Words</item>
+        <item>The Power of Habit: Why We Do What We Do in Life and Business</item>
+        <item>Where Good Ideas Come From: The Natural History of Innovation</item>
+        <item>Moonwalking with Einstein: The Art and Science of Remembering Everything</item>
+        <item>Harry Potter and the Cursed Child - Parts I &amp; II</item>
+        <item>What If?: Serious Scientific Answers to Absurd Hypothetical Questions</item>
+        <item>Lauren Ipsum: A Story About Computer Science and Other Improbable Things</item>
+        <item>Fantastic Beasts and Where to Find Them: The Original Screenplay</item>
+    </string-array>
+
+    <string-array name="book_authors">
+        <item>Randall Munroe</item>
+        <item>Charles Duhigg</item>
+        <item>Steven Johnson</item>
+        <item>Joshua Foer</item>
+        <item>J. K. Rowling, John Tiffany, Jack Thorne</item>
+        <item>Randall Munroe</item>
+        <item>Carlos Bueno</item>
+        <item>J. K. Rowling</item>
+    </string-array>
+
+    <integer-array name="book_images">
+        <item>@drawable/thing_explainer</item>
+        <item>@drawable/power_of_habit</item>
+        <item>@drawable/where_good_ideas_come_from</item>
+        <item>@drawable/moonwalking_with_enistein</item>
+        <item>@drawable/harry_potter</item>
+        <item>@drawable/what_if</item>
+        <item>@drawable/lauren_ipsum</item>
+        <item>@drawable/fantastic_beasts</item>
+    </integer-array>
+
+    <array name="prices">
+        <item>15.12</item>
+        <item>9.47</item>
+        <item>19.02</item>
+        <item>12.93</item>
+        <item>17.9</item>
+        <item>14.95</item>
+        <item>13.42</item>
+        <item>14.99</item>
+    </array>
+
+    <string-array name="overviews">
+        <item>Have you ever tried to learn more about some incredible thing, only to be frustrated by incomprehensible jargon?
+            Randall Munroe is here to help.  In Thing Explainer, he uses line drawings and only the thousand (or, rather, “ten hundred”)
+            most common words to provide simple explanations for some of the most interesting stuff there is.</item>
+
+        <item>In The Power of Habit, Pulitzer Prize–winning business reporter Charles Duhigg takes us to the thrilling edge of
+            scientific discoveries that explain why habits exist and how they can be changed. Distilling vast amounts of
+            information into engrossing narratives that take us from the boardrooms of Procter and Gamble to sidelines of the NFL to
+            the front lines of the civil rights movement, Duhigg presents a whole new understanding of human nature and its potential.
+            At its core, The Power of Habit contains an exhilarating argument: The key to exercising regularly, losing weight, being
+            more productive, and achieving success is understanding how habits work. As Duhigg shows, by harnessing this new science,
+            we can transform our businesses, our communities, and our lives.</item>
+
+        <item>The printing press, the pencil, the flush toilet, the battery—these are all great ideas. But where do they come from?
+            What kind of environment breeds them? What sparks the flash of brilliance? How do we generate the breakthrough technologies
+            that push forward our lives, our society, our culture? Steven Johnson’s answers are revelatory as he identifies the seven key
+            patterns behind genuine innovation, and traces them across time and disciplines. From Darwin and Freud to the halls of Google
+            and Apple, Johnson investigates the innovation hubs throughout modern time and pulls out applicable approaches and commonalities
+            that seem to appear at moments of originality. Where Good Ideas Come From gives us both an important new understanding of the history
+            of innovation and a set of useful strategies for cultivating our own creative breakthroughs.</item>
+
+        <item>"The blockbuster phenomenon that charts an amazing journey of the mind while revolutionizing our concept of memory.
+            An instant bestseller that is poised to become a classic, Moonwalking with Einstein recounts Joshua Foer's yearlong quest
+            to improve his memory under the tutelage of top \"mental athletes.\" He draws on cutting-edge research, a surprising cultural
+            history of remembering, and venerable tricks of the mentalist's trade to transform our understanding of human memory. From
+            the United States Memory Championship to deep within the author's own mind, this is an electrifying work of journalism that
+            reminds us that, in every way that matters, we are the sum of our memories."</item>
+
+        <item>The Eighth Story. Nineteen Years Later.
+            Based on an original new story by J.K. Rowling, John Tiffany, and Jack Thorne, a new play by Jack Thorne, Harry Potter and the Cursed
+            Child is the eighth story in the Harry Potter series and the first official Harry Potter story to be presented on stage. The
+            play will receive its world premiere in London\'s West End on July 30, 2016.
+            It was always difficult being Harry Potter and it isn\'t much easier now that he is an overworked employee of the Ministry of Magic,
+            a husband and father of three school-age children.
+            While Harry grapples with a past that refuses to stay where it belongs, his youngest son Albus must struggle with the weight of a family
+            legacy he never wanted. As past and present fuse ominously, both father and son learn the uncomfortable truth: sometimes, darkness
+            comes from unexpected places.</item>
+
+        <item>From the creator of the wildly popular webcomic xkcd, hilarious and informative answers to important questions you probably never thought to ask
+            Millions of people visit xkcd.com each week to read Randall Munroe\’s iconic webcomic. His stick-figure drawings about science, technology, language,
+            and love have an enormous, dedicated following, as do his deeply researched answers to his fans\’ strangest questions.
+            The queries he receives range from merely odd to downright diabolical:
+            • What if I took a swim in a spent-nuclear-fuel pool?
+            • Could you build a jetpack using downward-firing machine guns?
+            • What if a Richter 15 earthquake hit New York City?
+            • Are fire tornadoes possible?
+            His responses are masterpieces of clarity and wit, gleefully and accurately explaining everything from the relativistic effects of a
+            baseball pitched at near the speed of light to the many horrible ways you could die while building a periodic table out of all the actual
+            elements.The book features new and never-before-answered questions, along with the most popular answers from the xkcd website. What
+            If? is an informative feast for xkcd fans and anyone who loves to ponder the hypothetical.</item>
+
+        <item>Lauren Ipsum is a whimsical journey through a land where logic and computer science come to life.
+            Meet Lauren, an adventurer lost in Userland who needs to find her way home by solving a series of puzzles. As she visits places
+            like the Push &amp; Pop Café and makes friends with people like Hugh Rustic and the Wandering Salesman, Lauren learns about computer
+            science without even realizing it—and so do you!
+            Read Lauren Ipsum yourself or with someone littler than you, then flip to the notes at the back of the book to learn more about
+            logic and computer science in the real world.
+            Suggested for ages 10 and up.</item>
+
+        <item>J.K. Rowling\'s screenwriting debut is captured in this exciting hardcover edition of the Fantastic Beasts and Where to Find Them screenplay.
+            When Magizoologist Newt Scamander arrives in New York, he intends his stay to be just a brief stopover. However, when his magical case is misplaced and some of Newt\'s fantastic beasts escape, it spells trouble for everyone…
+            Fantastic Beasts and Where to Find Them marks the screenwriting debut of J.K. Rowling, author of the beloved and internationally bestselling Harry Potter books. Featuring a cast of remarkable characters, this is epic, adventure-packed storytelling at its very best.
+            Whether an existing fan or new to the wizarding world, this is a perfect addition to any reader\'s bookshelf.</item>
+    </string-array>
+
+    <string-array name="isbns">
+        <item>9780544668256</item>
+        <item>9780812981605</item>
+        <item>9781594487712</item>
+        <item>9780143120537</item>
+        <item>9781338099133</item>
+        <item>9780544272996</item>
+        <item>9781593275747</item>
+        <item>9781338109061</item>
+    </string-array>
+
+    <string-array name="pub_dates">
+        <item>11/24/2015</item>
+        <item>07/01/2014</item>
+        <item>05/10/2010</item>
+        <item>28/02/2012</item>
+        <item>31/07/2016</item>
+        <item>02/09/2014</item>
+        <item>11/12/2014</item>
+        <item>18/11/2016</item>
+    </string-array>
+
+    <integer-array name="pages">
+        <item>64</item>
+        <item>416</item>
+        <item>336</item>
+        <item>320</item>
+        <item>320</item>
+        <item>320</item>
+        <item>192</item>
+        <item>304</item>
+    </integer-array>
+
+    <string-array name="urls">
+        <item>http://www.barnesandnoble.com/w/thing-explainer-randall-munroe/1121864432?ean=9780544668256</item>
+        <item>http://www.barnesandnoble.com/w/the-power-of-habit-charles-duhigg/1103588638?ean=9780812981605#productInfoTabs</item>
+        <item>http://www.barnesandnoble.com/w/where-good-ideas-come-from-steven-johnson/1100483654?ean=9781594487712#productInfoTabs</item>
+        <item>http://www.barnesandnoble.com/w/moonwalking-with-einstein-joshua-foer/1100224655?ean=9780143120537#productInfoTabs</item>
+        <item>http://www.barnesandnoble.com/w/harry-potter-and-the-cursed-child-parts-i-ii-j-k-rowling/1123463689?ean=9781338099133#productInfoTabs</item>
+        <item>http://www.barnesandnoble.com/w/what-if-serious-scientific-answers-to-absurd-hypothetical-questions-randall-munroe/1118864093?ean=9780544272996</item>
+        <item>http://www.barnesandnoble.com/w/lauren-ipsum-carlos-bueno/1119329030?ean=9781593275747#productInfoTabs</item>
+        <item>http://www.barnesandnoble.com/w/fantastic-beasts-and-where-to-find-them-j-k-rowling/1123722904?ean=9781338109061#productInfoTabs</item>
+    </string-array>
+
+</resources>

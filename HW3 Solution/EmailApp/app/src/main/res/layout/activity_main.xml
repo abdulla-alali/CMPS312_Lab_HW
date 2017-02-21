@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="qa.edu.qu.cmps312.emailapp.MainActivity">
+
+    <!--android:layout_below="@+id/textView"--><![CDATA[
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView"
+        android:layout_height="150dp"
+        android:layout_width="150dp" />
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:text="Subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/subjectField"
+
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4" />
+
+    <TextView
+        android:text="Body:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/attachment"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/subjectField"
+        android:layout_height="150dp"
+        android:layout_width="150dp" />
+
+    <TextView
+        android:text="bodyField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/bodyField"
+        android:layout_below="@+id/textView6"
+        android:scrollbars = "vertical"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Email App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="Subject:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:id="@+id/textView4"
+
+        android:layout_marginTop="152dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
